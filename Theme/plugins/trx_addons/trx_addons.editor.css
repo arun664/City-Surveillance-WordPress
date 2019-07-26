@@ -1,0 +1,70 @@
+/* Tooltips */
+.trx_addons_tooltip {
+	border-bottom-style: solid;
+	display: inline-block;
+	line-height: 1.2em;
+}
+.trx_addons_tooltip:before {
+	font-size:0.833em;
+	line-height:1.3em;
+	padding: 0.4em 0.9em;
+	letter-spacing: 0.3px;
+	-webkit-transform:translateX(-50%);
+	    -ms-transform:translateX(-50%);
+	        transform:translateX(-50%);
+	-webkit-border-radius: 0 !important;
+	    -ms-border-radius: 0 !important;
+			border-radius: 0 !important;
+}
+.trx_addons_tooltip:after {
+	border: 5px solid transparent;
+	left: 45%;
+	margin-bottom:-10px;
+	-webkit-transform:none;
+	    -ms-transform:none;
+	        transform:none;
+}
+
+/* accent bg */
+.trx_addons_accent_bg {
+	padding: 0 0.45em;
+	line-height: 1.4em;
+
+}
+/* Dropcaps */
+.trx_addons_dropcap {
+	font-size:2.8em;
+	padding: 0;
+	margin: 0.2em 0.4em 0 0;
+	width: 1.4em;
+	height: 1.4em;
+	line-height: 1.4em;
+	-webkit-border-radius: 0;
+	    -ms-border-radius: 0;
+			border-radius: 0;
+}
+
+/* Tiny text */
+.trx_addons_tiny_text {
+	letter-spacing:2px;
+}
+
+/* Lists */
+.trx_addons_list_parameters > li > strong,
+.trx_addons_list_parameters > li > em {
+	color:inherit;
+}
+ul[class*="trx_addons_list_dot"] > li::before {
+	font-size: 1.5em;
+	left: -0.8em;
+	top: 3px;
+}
+ol[class*="trx_addons_list"] > li,
+ul[class*="trx_addons_list"] > li {
+	letter-spacing: 0.4px;
+	line-height: 2em;
+}
+
+.trx_addons_list_parameters > li > em {
+	font-family:inherit;
+}

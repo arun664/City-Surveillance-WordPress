@@ -1,0 +1,26 @@
+﻿Version 1.1
+    Added:
+    - Compatibility with GDPR Compliance plugin
+    - Alert to Demo data installation
+
+    Fixed:
+    - Compatibility with Gutenberg and other PageBuilders
+    - Compatibility with PHP 7.3
+    - Compatibility with Wordpress 5.1.1
+    - Update plugins to their latest versions
+    - Google map
+    - Update documentation
+
+    Changed:
+    - Make forms GDPR-compliant
+
+Version 1.0.2
+    Fixed:
+    - TRX Contact Widget
+
+Version 1.0.1
+	* WordPress Version 4.9.2 ready
+	* Plugins updated
+    * Compatibility with PHP7
+
+Release – v.1.0 (v.1.0.37)
